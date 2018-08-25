@@ -1,0 +1,26 @@
+.wrap {
+    min-width: 600px;
+    width: 80%;
+    height: 600px;
+    background: green;
+}
+.content {
+    width: 75%;
+    background: red;
+    float: left;
+}
+aside {
+    width: 25%;
+    background: orchid;
+    float: right;
+}
+.content,aside {
+    height: 400px;
+}
+aside ul{
+    padding-left: 5px;
+    list-style: none;
+}
+footer {
+    clear: both;
+}
