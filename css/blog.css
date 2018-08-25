@@ -1,7 +1,6 @@
 .wrap {
     min-width: 600px;
     width: 80%;
-    height: 600px;
     background: green;
 }
 .content {
