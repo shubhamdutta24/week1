@@ -2,6 +2,7 @@
     min-width: 600px;
     width: 80%;
     background: green;
+    overflow: hidden;
 }
 .content {
     width: 75%;
@@ -19,7 +20,4 @@ aside {
 aside ul{
     padding-left: 5px;
     list-style: none;
-}
-footer {
-    clear: both;
 }
