@@ -2,22 +2,24 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/form.css">
     <title>Forms</title>
 </head>
 <body>
     <form action="" method="get">
-        <p>
-            <label for="name">Enter your name:</label>
-            <input id="name" name="name" />
-        </p>
-        <p>
-            <label for="comments">Enter comments:</label>
-            <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
-        </p>
-        <p>
-            <input type="submit" value="Go!" />
-        </p>
-            
+        <ul>
+            <li>
+                    <label for="name">Enter your name:</label>
+                    <input id="name" name="name" />
+            </li>
+            <li>
+                    <label for="comments">Enter comments:</label>
+                    <textarea name="comments" id="comments">Default comment</textarea>
+            </li>
+            <li>
+                    <input type="submit" value="Go!" />
+            </li>
+        </ul>    
     </form>
 </body>
 </html>
