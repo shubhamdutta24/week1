@@ -7,6 +7,10 @@ form ul {
 }
 label {
     display: block;
+    cursor: pointer;
+    color: #292929;
+    font-family: sans-serif;
+    padding-bottom: 8px;
 }
 textarea {
     width: 300px;
