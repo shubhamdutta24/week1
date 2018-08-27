@@ -1,0 +1,26 @@
+body {
+    margin: 30px auto;
+    width: 1000px;
+}
+.postimg {
+    float: left;
+    padding-right: 30px;
+}
+.asdf {
+    background: red;
+    width: 633px;
+    float: right;
+}
+li {
+    display: inline;
+}
+li:after {
+    content: '\\';
+    padding: 0 5px;
+}
+li:last-child:after {
+    content: none;
+}
+.continue {
+    float: right;
+}
