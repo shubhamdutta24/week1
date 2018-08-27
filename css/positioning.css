@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+.box {
+    width: 400px;
+    height: 400px;
+    background: red;
+    position: relative;
+    left:300px;
+    top:250px;
+}
